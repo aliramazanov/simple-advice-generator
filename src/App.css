@@ -1,0 +1,47 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-size: 62.5%;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+
+  box-shadow: 2rem 2rem 7rem rgb(102, 148, 255);
+  border-radius: 2rem;
+  padding: 2rem;
+  background-color: rgb(111, 150, 243);
+  color: white;
+  font-size: 3rem;
+  margin: 2rem;
+}
+
+.button-to-fetch {
+  border-radius: 3rem;
+  padding: 1.5rem 2rem;
+  color: black;
+  border: none;
+  cursor: pointer;
+  font-size: 2rem;
+  margin-top: 10rem;
+}
+
+.advices-welcome {
+  font-size: 4rem;
+  margin-bottom: 5rem;
+  margin-top: 6rem;
+  border-radius: 2rem;
+  padding: 3rem;
+}

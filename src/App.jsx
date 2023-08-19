@@ -39,14 +39,21 @@ class App extends Component {
   render() {
     const { advice, loading } = this.state;
     return (
-      <div className="App">
-        <h1 className="content">{advice}</h1>
+      <div className="app">
+        <span className="advices-welcome">
+          ✨ Take a look at awesome advices: ✨
+        </span>
+        <div className="advice-container">
+          <span className="content">{advice}</span>
+        </div>
         <button
           className="button-to-fetch"
           onClick={this.handleButtonClick}
           disabled={loading}
         >
-          {loading ? "Advices are on the way..." : "Give me a new advice!"}
+          {loading
+            ? "🚀 Advices are on the way... ⏳"
+            : "🔮 Give me a new advice! 🔮"}
         </button>
       </div>
     );
