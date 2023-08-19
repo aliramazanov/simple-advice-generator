@@ -38,6 +38,7 @@ class App extends Component {
 
   render() {
     const { advice, loading } = this.state;
+
     return (
       <div className="app">
         <span className="advices-welcome">
